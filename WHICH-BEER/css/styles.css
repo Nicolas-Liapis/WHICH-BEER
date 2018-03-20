@@ -1,0 +1,15 @@
+img {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 200px;
+
+}
+
+h1 {
+  color: red;
+}
+
+.beerList {
+  border: red;
+  height: 100px;
+}
