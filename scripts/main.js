@@ -56,7 +56,7 @@ $('#surprise').click(function(){
     //Returns a random beer
     $.getJSON("https://api.punkapi.com/v2/beers/random", function(json) {
      $('.beerList').html(
-       '<p> <span>Name: </span>'+ json["0"].name +' </p><p><span>Description: </span>'+ json["0"].description +' </p><img class="beer" src='+ json["0"].image_url +' />'
+       '<p> <span>Name: </span>'+ json["0"].name +' </p><p><span>Alcohol: </span>'+ json["0"].abv +'%</p><p><span>Description: </span>'+ json["0"].description +' </p><img class="beer" src='+ json["0"].image_url +' />'
      );
   });
 });
